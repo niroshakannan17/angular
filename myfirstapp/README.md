@@ -32,3 +32,25 @@ if you want to create a angular best to use command promt instead on vs code ter
 to create a app "npm init @angular project_name"
 run app "npm start"
 stop app "ctrl+c"
+
+To install angular cli globally
+
+cmd : npm install -g @angular/cli
+
+angular cli package is needed. to use ng command
+
+Then After install of angularcli
+
+need to setup
+
+cmd : Set-ExectionPolicy -Scope CurrentUser -ExectionPolicy RemoteSigned
+
+After run the above command we can able to use ng commend.
+
+ng is mainly used for to perform verious operation
+
+ng --help 
+
+lt list all available opeartion
+
+to know the agular cli version use "ng version"

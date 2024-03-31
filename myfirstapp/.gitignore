@@ -42,8 +42,3 @@ testem.log
 Thumbs.db
 
 
-if you want to create a angular best to use command promt instead on vs code terminal
-
-to create a app "npm init @angular project_name"
-run app "npm start"
-stop app "ctrl+c"
