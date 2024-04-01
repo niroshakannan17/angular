@@ -5,9 +5,10 @@ import { RouterOutlet } from '@angular/router';
   selector: 'app-root',
   standalone: true,
   imports: [RouterOutlet],
-  templateUrl: './app.component.html',
+  //templateUrl: './app.component.html',
+  template:"<h2>Hello {{title}} ,Welcome to first angular program</h2>",
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'myfirstapp';
+  title = 'Nirosha Kannan';
 }
