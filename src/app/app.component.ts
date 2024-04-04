@@ -3,12 +3,12 @@ import { RouterOutlet } from '@angular/router';
 import { HelloWorldComponents } from './hello-world/hello-world.components';
 import { Twowaybinding } from './data-binding/two-way-binding.components';
 import { safeNavaigation } from './safe-navigation/safe-navigation.components';
-
+import { bindingComponents } from './binding/binding.components'
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet,HelloWorldComponents,Twowaybinding,safeNavaigation],
+  imports: [RouterOutlet,HelloWorldComponents,Twowaybinding,safeNavaigation,bindingComponents],
   templateUrl: './app-new.components.html',
   //template:"<h2>Hello {{title}} ,Welcome to first angular program</h2>",
   styleUrl: './app.component.css'
